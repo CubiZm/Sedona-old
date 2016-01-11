@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sedona - because the Grand Canyon Sucks!</title>
+    <meta name="keywords" content="sedona">
+    <meta name="description" content="Седона - небольшой городок в Аризоне">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="main-header">
+            <nav class="main-navigation">
+                <ul>
+                    <li>
+                        <a href="index.html" class="active">Информация</a>
+                    </li>
+                    <li>
+                        <a href="#">Фото и видео</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="logo-outer">
+                            <img src="img/logo.png" height="70" width="138" class="logo" alt="Logo Sedona"></a>
+                    </li>
+                    <li>
+                        <a href="#maps">Карта штата</a>
+                    </li>
+                    <li>
+                        <a href="hotels.html">Гостиницы</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="banner-picture"></div>
+        <div class="main-title">
+            <h1>
+                Седона-небольшой городок в
+        Аризоне,
+                <br>заслуживающий большего!</h1>
+            <p>
+                Рассмотрим 5 причин, по которым седона круче чем гранд каньон!
+            </p>
+        </div>
+        <div class="reasons-list clearfix">
+            <div class="reason first">
+                <div class="item-title">
+                    Настоящий
+                    городок</div>
+                <p>- №1 -</p>
+                <p>
+                    Седона не аттракцион для туристов,
+                    там течет своя жизнь</p>
+            </div>
+            <div class="reason-photo"></div>
+        </div>
+        <div class="features clearfix">
+            <div class="features-best features-best-bg house">
+                <div class="feature-name">Жилье</div>
+                <p>
+                    Рекомендуем пожить в настоящем мотеле,
+                    все как в кино!</p>
+            </div>
+            <div class="features-best features-best-bg food">
+                <div class="feature-name">Еда</div>
+                <p>
+                    Всегда заказывай фирменный бургер,
+                    <p>вы не разочаруетесь!</p>
+            </div>
+            <div class="features-best features-best-bg souvenir">
+                <div class="feature-name">Сувениры</div>
+                <p>
+                    Не только китайского,
+                    но и местного производства!</p>
+            </div>
+        </div>
+        <div class="title-box clearfix">
+            <div class="reason over">
+                <div class="item-title">
+                    Там есть мост дьявола</div>
+                <p>- №2 -</p>
+                <p>
+                    Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+            </div>
+            <div class="reason-photo-second"></div>
+        </div>
+        <div class="features other clearfix">
+            <div class="features-best">
+                <div class="feature-name-second">
+                    Небольшая площадь
+                </div>
+                <p>- №3 -</p>
+                <p>Все достопримеча- тельности находятся очень близко</p>
+            </div>
+            <div class="features-best">
+                <div class="feature-name-second">
+                    Красивая дорога
+                </div>
+                <p>- №4 -</p>
+                <p>
+                    Ехать в седону из лас-вегаса совсем не скучно!</p>
+            </div>
+            <div class="features-best">
+                <div class="feature-name-second">
+                    Мало туристов
+                </div>
+                <p>- №5 -</p>
+                <p>
+                    Большинство едет в гранд каньон и толпится там</p>
+            </div>
+        </div>
+        <div class="form-hotel">
+            <p class="form-title">Заинтересовались?</p>
+            <p>
+                Укажите предпологаемые даты поездки</p>
+            <p>и мы покажем вам лучшие предложения гостиниц в седоне
+            </p>
+            <a href="#" class="search-btn-hotel">поиск гостиницы в седоне</a>
+            <form action="" class="formsearch bounce animated">
+                <div class="search-row clearfix  icon-calendar">
+                    <label for="date-in" class="search-column-25">Дата заезда</label>
+                    <input type="date" class="date-in search-column-75">
+                </div>
+                <div class="search-row clearfix  icon-calendar">
+                    <label for="date-out" class="search-column-25">Дата выезда</label>
+                    <input type="date" class="date-out search-column-75">
+                </div>
+                <div class="search-row clearfix">
+                    <div class="search-column-50">
+                        <label for="adult" class="search-column-50">Взрослые</label>
+                        <div class="search-column-50 clearfix">
+                            <button class="plus search-column-25"><i class="icon-plus"></i></button>
+                            <input type="number" min="0" class="search-column-50">
+                            <button class="minus search-column-25"><i class="icon-minus"></i></button>
+                        </div>
+                    </div>
+                    <div class="search-column-50">
+                        <label for="child" class="search-column-50 label-child">Дети</label>
+                        <div class="search-column-50 clearfix">
+                            <button class="plus search-column-25"><i class="icon-plus"></i></button>
+                            <input type="number" min="0" class="search-column-50">
+                            <button class="minus search-column-25"><i class="icon-minus"></i></button>
+                        </div>
+                    </div>
+                    <button class="btn">Найти</button>
+            </form>
+            </div>
+            <div class="map" id="maps">
+                <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6546.96489632558!2d-111.76046285490621!3d34.869229676828475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xe91c118f09cc18a6!2sSedona+Chamber+of+Commerce+Visitor+Center!5e0!3m2!1sru!2sru!4v1429718317830"></iframe>
+            </div>
+        </div>
+        <footer class="main-footer footer-index">
+            <div class="foot-wrap clearfix ">
+                <div class="tags">
+                    <p class="tag">#visitsedona</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-btn"> <i class="icon-twitter"></i>
+                    </a>
+                    <a href="#" class="social-btn"> <i class="icon-facebook"></i>
+                    </a>
+                    <a href="#" class="social-btn">
+                        <i class="icon-youtube"></i>
+                    </a>
+                </div>
+                <div class="copy">
+                    <p class="footer-copyright">Website by: <a href="http://htmlacademy.ru" class="ha-logo">htmlacademy</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/common.min.js"></script>
+</body>
+
+</html>
