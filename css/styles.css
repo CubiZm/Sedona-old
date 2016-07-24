@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'alexbrush-regular-webfont';
+    src: url('../fonts/alexbrush-regular-webfont.eot');
+    src: url('../fonts/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alexbrush-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alexbrush-regular-webfont.woff') format('woff'),
+         url('../fonts/alexbrush-regular-webfont.ttf') format('truetype');
+    font-weight: bolder;
+    font-style: bolder;
+   
+    }
+
+body {
+ background-image: 
+     url(../img/11.png);
+     background-size: 100%;
+     padding: 38px; /* Отсуп! */
+     font-family: 'alexbrush-regular-webfont';
+     font-style: bolder;
+     font-size: 20px;
+     top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 50%; /* Отступ в процентах от левого края окна */
+   position: absolute; /* Абсолютное позиционирование блока */
+   margin-top: -200px; /* Отрицательный отступ от верхнего края страницы */
+  margin-left: -250px; /* Отрицательный отступ от левого края страницы*/
+   }
+img {
+    height: 345px;
+    width: 348px; 
+    top: 50%; /* Отступ в процентах от верхнего края окна */
+    left: 13%;
+    position: absolute;
+    margin-top: 45px; 
+    margin-left: -10px;
+}
+
